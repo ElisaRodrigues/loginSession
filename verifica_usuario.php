@@ -1,9 +1,6 @@
 <?php
     session_start();
 
-    print_r($_GET);
-    exit();
-
     function login(){
         $login = $_POST['login'];
         $senha = $_POST['senha'];
@@ -41,5 +38,8 @@
 
     //rotas
 if ($_GET['acao']=='login'){
-
+    login();
+}
+if ($_GET['acao']=='sair'){
+    logout();
 }
