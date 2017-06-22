@@ -9,13 +9,13 @@
 
 <div class="form-login">
 
-    <form method="post" action="verifica_usuario.php?acao=login">
+    <form method="post" action="verifica_usuario.php">
 
         <input type="text"     name="nome" placeholder="digite seu nome">
         <br />
-        <input type="text"     name="login" placeholder="digite seu login - fulano">
+        <input type="text"     name="login" placeholder="digite seu login">
         <br />
-        <input type="password" name="senha" placeholder="digite sua senha - 12345">
+        <input type="password" name="senha" placeholder="digite sua senha">
         <br />
         <input type="submit"   name="login_form" value="acessar">
 
