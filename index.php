@@ -23,8 +23,10 @@ if ($logado == false){
 
     <a href="verifica_usuario.php?acao=sair" class="sair">sair</a>
 
-    <img src="https://www.blogizz.com/images/blog/153166-241723.jpg" alt="" width="200" height="200">
+    <img src="https://yt3.ggpht.com/-aZ8t43Ux4mA/AAAAAAAAAAI/AAAAAAAAAAA/-NhoOwp831c/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" alt="" width="200" height="200">
     <h3>Bem vindo!</h3>
+    <a href="ind_agenda.php">ABRIR AGENDA</a>
+    <?php header('Location: ind_agenda.php'); ?>
 </div>
 
 </body>

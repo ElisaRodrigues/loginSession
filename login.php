@@ -9,10 +9,8 @@
 
 <div class="form-login">
 
-    <form method="post" action="verifica_usuario.php">
+    <form method="post" action="verifica_usuario.php?acao=login">
 
-        <input type="text"     name="nome" placeholder="digite seu nome">
-        <br />
         <input type="text"     name="login" placeholder="digite seu login">
         <br />
         <input type="password" name="senha" placeholder="digite sua senha">
